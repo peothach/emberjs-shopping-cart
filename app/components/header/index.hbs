@@ -1,10 +1,5 @@
-<main class='container mt-5'>
-  <h1>{{pageName}}</h1>
-
-  <ol class='breadcrumb'>
-    <li class='breadcrumb-item'>
-      <a id='ember104' class='ember-view' href='/'>Home</a>
-    </li>
-  </ol>
-  {{yield}}
-</main>
+<nav class='menu'>
+  <LinkTo @route='index' class='menu-index'>
+    <h1>SuperRentals</h1>
+  </LinkTo>
+</nav>
